@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link href="css/register.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+  </head>
+  <body>
+
+	 <!-- left container -->
+	 <div class="left-container">                 
+                 <div class="puppy">
+                     <img src="img/banner/dog.png" alt="">
+                 </div>
+    </div>
+    <!-- left container -->
+
+    <!-- Body of Form starts -->
+  	<div class="container">
+      <form method="post" autocomplete="on">
+        <!--First name-->
+    		<div class="box">
+          <label for="firstName" class="fl fontLabel"> First Name: </label>
+    			<div class="new iconBox">
+                <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+    			<div class="fr">
+    					<input type="text" name="firstName" placeholder="First Name"class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--First name-->
+
+
+        <!--Second name-->
+    		<div class="box">
+                <label for="LastName" class="fl fontLabel"> Last Name: </label>
+    			<div class="fl iconBox"><i class="fa fa-user"aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="LastName"placeholder="Last Name" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Second name-->
+
+            <!---Password------>
+    		<div class="box">
+                <label for="password" class="fl fontLabel"> Password </label>
+                      <div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+                      <div class="fr">
+                              <input type="Password" required name="password" placeholder="Password" class="textBox">
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <!---Password---->
+
+
+    		<!---Phone No.------>
+    		<div class="box">
+                <label for="phone" class="fl fontLabel"> Phone No.: </label>
+    			<div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="phoneNo" maxlength="10" placeholder="Phone No." class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Phone No.---->
+
+
+    		<!---Pet Name---->
+    		<div class="box">
+                <label for="petName" class="fl fontLabel"> Pet Name : </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="petName" placeholder="Pet Name" class="textBox">
+    			</div>
+    		</div>
+    		<!--end of Pet Name----->
+
+            	<!---Pet Age---->
+    		<div class="box">
+                <label for="petAge" class="fl fontLabel"> Pet Age : </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="number" required name="petAge" placeholder="Pet Age" class="textBox">
+    			</div>
+    		</div>
+    		<!--end of Pet Age----->
+
+
+
+    		
+
+    		<!---Pet Gender----->
+    		<div class="radio">
+                     <label for="gender" class="fl fonLabel">Pet Gender: </label>
+    				<input type="radio" name="Gender" value="Male" required> Male
+    				<input type="radio" name="Gender" value="Female" required> Female
+    		</div>
+    		<!---end of Pet Gender--->
+
+            <!-- pet weight -->
+            <div class="radio">
+                    <label for="pet-weight-0-25" class="fl fontLabel">Weight(lbs) : </label>
+                    <input id="pet-weight-0-25" type="radio" name="pet-weight" value="0-25" checked>
+                    <label for="pet-weight-0-25">0-25</label>
+                    <input id="pet-weight-25-50" type="radio" name="pet-weight" value="25-50">
+                    <label for="pet-weight-25-50">25-50</label>
+                    <input id="pet-weight-50-100" type="radio" name="pet-weight" value="50-100">
+                    <label for="pet-weight-50-100">50-100</label>
+                    <input id="pet-weight-100-plus" type="radio" name="pet-weight" value="100+">
+                    <label for="pet-weight-100-plus">100+</label>
+                
+            </div>
+            <!-- end of pet weight -->
+
+    		<!---Submit Button------>
+    		<div class="box">
+    				<input type="Submit" name="Submit" class="submit" value="SUBMIT">
+    		</div>
+    		<!---Submit Button----->
+      </form>
+  </div>
+  <!--Body of Form ends--->
+  </body>
+</html>
