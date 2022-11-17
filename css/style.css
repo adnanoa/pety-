@@ -6588,3 +6588,119 @@ h6 {
   size: 20px;
   color: black;
 }
+
+.clinics-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.clinics-container .clinics{
+  margin: 30px;
+  padding: 10px;
+  border: solid purple;
+  border-radius: 20px;
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+}
+
+.clinics-container .clinic{
+  margin: 10px;
+  border: solid purple;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.clinics-container .label{
+  margin: 20px;
+  text-align: center;
+  size: 20px;
+  color: black;
+}
+
+
+.pop-up{
+  background: #cfcfcf;
+	width: 650px;
+	height: 400px;
+  position:fixed;
+  text-align: center;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 30px 30px 30px 30px;
+  border-radius: 20%;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  display: inline-block;
+}
+
+.pop-up:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pop-up .wrapper {
+  text-align: center;
+}
+
+.pop-up .wrapper .close {
+  float: left;
+  color:purple;
+  opacity: 1.5;
+  font-size: 40px;
+}
+
+.pop-up .checkbox-container{
+  margin: -5px;
+  padding: 5px;
+}
+
+.pop-up .check-label{
+  color: black;
+  text-size-adjust: 10px;
+  margin: 8px;
+}
+
+
+.submit{
+  float:right;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  padding: 17px 55px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  border-radius: 30px;
+  border: none;
+  background-position: 100% 0;
+  background-position: 0 0;
+  background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
+}
+
+.submit:hover{
+  background: -webkit-linear-gradient(0deg, #4d0058 0%, #56014c 99%);
+}
+.fl{
+	  float: left;
+    width: 110px;
+    line-height: 35px;
+}
+
+.fontLabel{
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+
+.box{
+	width: 360px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+  display: inline-block;
+}
