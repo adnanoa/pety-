@@ -10,7 +10,7 @@ body{
 .container{
 	background: #a9a7a9;
 	width: 500px;
-	height: 250px;
+	height: 150px;
 	padding-bottom: 20px;
 	position: absolute;
 	top:47%;
@@ -29,7 +29,8 @@ body{
 }
 
 .fontLabel{
-  color: rgb(255, 255, 255);
+  color: white;
+  font-size: 14px;
 }
 
 .fr{
@@ -63,7 +64,7 @@ body{
 
 
 .Login{
-    float:right;
+    float: right;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
@@ -71,7 +72,7 @@ body{
     font-family: "Poppins", sans-serif;
     display: inline-block;
     border-radius: 30px;
-    border-radius: 30px;
+    border: none;
     background-position: 100% 0;
     background-position: 0 0;
     background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
