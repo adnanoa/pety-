@@ -22,9 +22,9 @@
 
 /* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_extend.scss */
 .boxed-btn3 {
-  background-image: -moz-linear-gradient(0deg, #f14437 0%, #00a439 99%);
-  background-image: -webkit-linear-gradient(0deg, #f14437 0%, #06a261 99%);
-  background-image: -ms-linear-gradient(0deg, #007949 0%, #0dedaa 99%);
+  background-image: -moz-linear-gradient(0deg, #4f024e 0%, #6e016d 99%);
+  background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
+  background-image: -ms-linear-gradient(0deg, #4d013f 0%, #81006d 99%);
 }
 
 /* Normal desktop :1200px. */
@@ -116,7 +116,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  color: #909092;
+  color: #ffffff;
   margin-bottom: 13px;
   font-family: "Open Sans", sans-serif;
 }
@@ -418,7 +418,7 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   border: 1px solid transparent;
-  color: #ff3500;
+  color: #730068;
   padding: 17px 50px;
   font-family: "Poppins", sans-serif;
   display: inline-block;
@@ -429,9 +429,9 @@ h3 {
 
 /* line 59, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #ff3500;
+  background: #c100ae;
   color: #fff;
-  border: 1px solid #ff3500;
+  border: 1px solid #c100ae;
 }
 
 /* line 64, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
@@ -2641,22 +2641,23 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #f8f8f8;
+  background: #6c0078;
   position: relative;
   z-index: 0;
+  color: white;
 }
 
 /* line 9, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 130px;
-  padding-bottom: 110px;
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
   /* line 9, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 
@@ -2708,7 +2709,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 25px;
   font-weight: 500;
-  color: #2e2e2e;
+  color: #fffdfd;
   text-transform: capitalize;
   margin-bottom: 36px;
   font-family: "Poppins", sans-serif;
@@ -2729,6 +2730,7 @@ h3 {
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 35px;
+  text-align:left;
 }
 
 @media (max-width: 767px) {
@@ -2740,7 +2742,7 @@ h3 {
 
 /* line 71, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #AAB1B7;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -2966,10 +2968,10 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner\ \(1\).png);
 }
 
-/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
+/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_area.scss */
 .breadcam_bg_1 {
   background-image: url(../img/banner/bradcam2.png);
 }
@@ -6557,3 +6559,32 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.pets-adopt-container{
+  text-align: center;
+  margin-top: 40px;
+}
+.pets-adopt{
+  margin: 30px;
+  padding: 10px;
+  border: solid purple;
+  border-radius: 20px;
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+}
+
+.pets-adopt .img{
+  margin: 10px;
+  border: solid purple;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.pets-adopt .label{
+  margin: 20px;
+  text-align: center;
+  size: 20px;
+  color: black;
+}
