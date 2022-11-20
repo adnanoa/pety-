@@ -6721,6 +6721,18 @@ h6 {
 
 /* slidshow */
 
+
+.slideshow-container {
+  width: 1100px;
+  height: 680px;
+  position: absolute;
+  top: 62%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  border-radius: 20%;
+  display: inline-block;
+}
 .slidshow {
   font-family: Verdana, sans-serif;
   box-sizing: border-box;
@@ -6739,21 +6751,9 @@ h6 {
 .slidshow img {
   vertical-align: middle;
   float: center;
-  height: 400px;
+  height: 480px;
 }
 
-.slideshow-container {
-  width: 850px;
-  height: 425px;
-  position: relative;
-  top: 50%;
-  top: 50%;
-  left:33%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  border-radius: 20%;
-  display: inline-block;
-}
 
 /* Next & previous buttons */
 .prev, .next {
