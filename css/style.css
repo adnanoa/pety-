@@ -6634,7 +6634,6 @@ h6 {
 
 /* popup */
 .pop-up{
-  background:purple;
 	width: 650px;
 	height: 400px;
   position:fixed;
@@ -6653,7 +6652,7 @@ h6 {
 
 .pop-up:target {
   visibility: visible;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .pop-up .wrapper {
@@ -6662,10 +6661,10 @@ h6 {
 
 .pop-up .wrapper .close {
   float: left;
-  color:white;
+  color:rgb(13, 5, 5);
   opacity: 1.5;
   font-size: 40px;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .pop-up .checkbox-container{
@@ -6807,4 +6806,94 @@ h6 {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+
+.calender-container{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.calender-container .calender {
+  display: inline-block;
+  margin: 20px;
+}
+
+.calender-container .calender .month{
+  padding: 70px 25px;
+  width: 400px;
+  background: purple;
+  text-align: center;
+}
+.calender-container .calender .month h3{
+  color: white;
+}
+
+.calender-container .calender .weekdays{
+  margin: 0;
+  padding: 10px 0;
+  background-color: rgb(91, 90, 89);
+  width: 400px;
+}
+
+.calender-container .calender .weekdays li {
+  display: inline-block;
+  width: 12%;
+  color: white;
+  text-align: center;
+  margin-left: 4px;
+}
+
+.calender-container .calender .days{
+  padding: 10px 0;
+  background-color: rgb(97, 94, 94);
+  margin: 0;
+  width: 400px;
+}
+
+.calender-container .calender .days li{
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-left: 4px;
+}
+
+.calender-container .calender .time li{
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(12, 8, 8);
+  margin-left: 4px;
+
+}
+
+.calender-container .calender .days .days-li:hover {
+  border: solid purple;
+  border-radius: 20%;
+}
+
+.calender-container .calender .calender-label{
+  background-color:purple;
+  width: 400px;
+  text-align: left;
+  color: white;
+}
+
+.pop-up .time{
+  text-align: center;
+}
+
+.pop-up .time-li {
+  margin-top: 40px;
+  list-style-type: none;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-left: 4px;
 }
