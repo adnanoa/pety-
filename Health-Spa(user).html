@@ -50,7 +50,7 @@
                                     <ul id="navigation">
                                         <li><a  href="index.html">home</a></li>
                                         <li><a href="adopt.html">Adopt</a></li>
-                                        <li><a href="Health_Spa.html">Health and Spa</a></li>
+                                        <li><a href="Health-Spa(user).html">Health and Spa</a></li>
                                         <li><a href="login.html">Login</a></li>
                                     </ul>
                                 </nav>
@@ -119,6 +119,8 @@
                     <label class="label" for="clinic">Clinic Name</label>
                 </div>
             </a>
+
+            
                   
         </div>
 
@@ -130,80 +132,83 @@
     <div class="pop-up" id="pop-up">
         <div class="wrapper" id="services">
             <a href="#" class="close"> &langd; </a>
-            <form method="post" autocomplete="on">
-
-            <!-- services checkbox -->
-            <div class="checkbox-container">
-                <label  class="check-label">choose your service : </label><br>
-             
-                <input type="checkbox" name="vaccination" value="Vaccination" id="vaccination">
-                <label for="vaccination" class="check-label">vaccination</label>
-
-
-                <input type="checkbox" name="Bath" value="Bath" id="Bath">
-                <label for="Bath" class="check-label">Bath</label>
-
-
-                <input type="checkbox" name="hair-cut" value="Hair-cut" id="hair-cut">
-                <label for="hair-cut" class="check-label">Hair Cut</label>
-
-
-                <input type="checkbox" name="health-check" value="health-check" id="health-check">
-                <label for="health-check" class="check-label">Health Check</label>
-
-            </div>
-            <!-- services checkbox -->
-
-            <!-- firstName -->
-            <div class="box">
-                <label for="fullName" class="fl fontLabel" style="color: white;"> Full Name: </label>
-                      <div class="fr">
-                              <input style="float: left; text-align:center; margin-top: 7px; " type="text" name="fullName" id="fullName" placeholder="Full Name"class="textBox" autofocus="on" required>
-                      </div>
-            </div>
-            <!-- firstName -->
-            
-            
-            <!-- Phone No. -->
-            <div class="box">
-                <label for="PhoneNo" class="fl fontLabel" style="color:white;"> Phone No. :</label>
-                      <div class="fr">
-                              <input style="float: left; text-align:center; margin-top: 7px;" type="text" name="PhoneNo" id="PhoneNo" placeholder="Phone No."class="textBox" autofocus="on" required>
-                      </div>
-            </div>
-            <!-- Phone No.-->
-            <div class="checkbox-container">
-                <label class="check-label">choose a date : </label><br>
+            <form method="post" style="padding: 0;">
+                <div class="calender-container" style="height: 200px;">
+                    <div class="calender">
+                        <div class="calender-label">
+                        <label for="month" style="color: white;">choose date :</label>
+                        </div>
+                        <div class="month">
+                            <h3 id="demo"></h3>
+                        </div>
                 
-                <input type="radio" name="time" value="13/10" required>
-                <label for="time" class="check-label">13/10</label>
-
-
-                <input type="radio" name="time" value="14/10" req>
-                <label for="time" class="check-label">14/10</label>
-            </div>
-
-            <div class="checkbox-container">
-                <label class="check-label">choose the time you want : </label><br>
+                        <ul class="weekdays">
+                            <li>SUN</li>
+                            <li>MON</li>
+                            <li>TUS</li>
+                            <li>WED</li>
+                            <li>THU</li>
+                            <li>FRI</li>
+                            <li>SAT</li>
+                        </ul>
                 
-                <input type="radio" name="time" value="10:00" required>
-                <label for="time" class="check-label">10:00</label>
-
-
-                <input type="radio" name="time" value="11:00" req>
-                <label for="time" class="check-label">11:00</label>
-            </div>
-
-            <div class="confirm">
-                <input type="Submit" name="confirm" class="submit" value="confirm">
-            </div>
+                        <ul class="days">
+                            <a href="#pop-up2"><li class="days-li">1</li></a>
+                            <a href="#pop-up2"><li class="days-li">2</li></a>
+                            <a href="#pop-up2"><li class="days-li">3</li></a>
+                            <a href="#pop-up2"><li class="days-li">4</li></a>
+                            <a href="#pop-up2"><li class="days-li">5</li></a>
+                            <a href="#pop-up2"><li class="days-li">6</li></a>
+                            <a href="#pop-up2"><li class="days-li">7</li></a>
+                            <a href="#pop-up2"><li class="days-li">8</li></a>
+                            <a href="#pop-up2"><li class="days-li">9</li></a>
+                            <a href="#pop-up2"><li class="days-li">10</li></a>
+                            <a href="#pop-up2"><li class="days-li">11</li></a>
+                            <a href="#pop-up2"><li class="days-li">12</li></a>
+                            <a href="#pop-up2"><li class="days-li">13</li></a>
+                            <a href="#pop-up2"><li class="days-li">14</li></a>
+                            <a href="#pop-up2"><li class="days-li">15</li></a>
+                            <a href="#pop-up2"><li class="days-li">16</li></a>
+                            <a href="#pop-up2"><li class="days-li">17</li></a>
+                            <a href="#pop-up2"><li class="days-li">18</li></a>
+                            <a href="#pop-up2"><li class="days-li">19</li></a>
+                            <a href="#pop-up2"><li class="days-li">20</li></a>
+                            <a href="#pop-up2"><li class="days-li">21</li></a>
+                            <a href="#pop-up2"><li class="days-li">22</li></a>
+                            <a href="#pop-up2"><li class="days-li">23</li></a>
+                            <a href="#pop-up2"><li class="days-li">24</li></a>
+                            <a href="#pop-up2"><li class="days-li">25</li></a>
+                            <a href="#pop-up2"><li class="days-li">26</li></a>
+                            <a href="#pop-up2"><li class="days-li">27</li></a>
+                            <a href="#pop-up2"><li class="days-li">28</li></a>
+                            <a href="#pop-up2"><li class="days-li">29</li></a>
+                            <a href="#pop-up2"><li class="days-li">30</li></a>
+                            <a href="#pop-up2"><li class="days-li">31</li></a>
                 
-        </div>
-    </form>
+                        </ul>
+                    </div>
+                </div>
+            </form>
     </div>
 </div>
 <!-- pop up end -->
 
+<!-- popup 2 -->
+
+<div class="pop-up" id="pop-up2" style="background-color: rgba(143, 142, 142, 0.8); height: 100px; text-align: center;">
+    <div class="wrapper" id="services">
+        <a href="#pop-up" class="close"> &langd; </a>
+        <form method="post" autocomplete="on" style="text-align: center;">
+            <label for="time-form" style="color: white;"> choose the time you want :</label>
+            <input type="time" id="time-form" required>
+
+            <div class="confirm">
+                <input type="Submit" name="confirm" class="submit" value="confirm">
+            </div>
+        </form>
+</div>
+</div>
+<!-- popup 2 end -->
 
 <!-- footer_start  -->
 <footer class="footer">
@@ -309,319 +314,13 @@
         var timepicker = $('#timepicker').timepicker({
          format: 'HH.MM'
      });
-    </script>
-</body>
-</html><!doctype html>
-<html class="no-js" lang="zxx">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Health and Spa</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="shortcut icon" type="image/x-icon" href="img/post/pet-care (1).png">
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-<!-- header start  -->
-    <header>
-        <div class="header-area ">
-           
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3 col-lg-3">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="img/post/pet-care (1).png" alt=""width="96xpx" height="50px" style="margin: right 1265px;" >
-                                    <p  style="margin-left: 15px; color: purple; font-style:inherit; font-size: 30px; font-weight: bold;">Pety</p>
-                                </a>
-                                
-                            </div>
-                            
-                        </div>
-                      
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a  href="index.html">home</a></li>
-                                        <li><a href="adopt.html">Adopt</a></li>
-                                        <li><a href="Health_Spa.html">Health and Spa</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-<!-- header End  -->
-
-
-<!-- bradcam_area_start -->
-    <div class="bradcam_area breadcam_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="bradcam_text text-center">
-                        <h3>Let us take care of your Pets</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- bradcam_area_end -->
-
-
-<!--================Health Area =================-->
-
-        <div class="clinics-container">
-            <a href="#pop-up">
-                <div class="clinics">
-                    <img class="clinic" id="clinic" src="img/post/clinic3.jfif" alt=""><br>
-                    <label class="label" for="clinic">Clinic Name</label>
-                </div>
-            </a>
-
-            <a href="#pop-up">
-                <div class="clinics">
-                    <img class="clinic" id="clinic" src="img/post/clinic3.jfif" alt=""><br>
-                    <label class="label" for="clinic">Clinic Name</label>
-                </div>
-            </a>
-
-            <a href="#pop-up">
-                <div class="clinics">
-                    <img class="clinic" id="clinic" src="img/post/clinic3.jfif" alt=""><br>
-                    <label class="label" for="clinic">Clinic Name</label>
-                </div>
-            </a>
-
-            <a href="#pop-up">
-                <div class="clinics">
-                    <img class="clinic" id="clinic" src="img/post/clinic3.jfif" alt=""><br>
-                    <label class="label" for="clinic">Clinic Name</label>
-                </div>
-            </a>
-
-            <a href="#pop-up">
-                <div class="clinics">
-                    <img class="clinic" id="clinic" src="img/post/clinic3.jfif" alt=""><br>
-                    <label class="label" for="clinic">Clinic Name</label>
-                </div>
-            </a>
-                  
-        </div>
-
-<!--================Health Area =================-->
-
-
-   
-<!-- pop up -->
-    <div class="pop-up" id="pop-up">
-        <div class="wrapper" id="services">
-            <a href="#" class="close"> &langd; </a>
-            <form method="post" autocomplete="on">
-
-            <!-- services checkbox -->
-            <div class="checkbox-container">
-                <label  class="check-label">choose your service : </label><br>
-             
-                <input type="checkbox" name="vaccination" value="Vaccination" id="vaccination">
-                <label for="vaccination" class="check-label">vaccination</label>
-
-
-                <input type="checkbox" name="Bath" value="Bath" id="Bath">
-                <label for="Bath" class="check-label">Bath</label>
-
-
-                <input type="checkbox" name="hair-cut" value="Hair-cut" id="hair-cut">
-                <label for="hair-cut" class="check-label">Hair Cut</label>
-
-
-                <input type="checkbox" name="health-check" value="health-check" id="health-check">
-                <label for="health-check" class="check-label">Health Check</label>
-
-            </div>
-            <!-- services checkbox -->
-
-            <!-- firstName -->
-            <div class="box">
-                <label for="fullName" class="fl fontLabel" style="color: white;"> Full Name: </label>
-                      <div class="fr">
-                              <input style="float: left; text-align:center; margin-top: 7px; " type="text" name="fullName" id="fullName" placeholder="Full Name"class="textBox" autofocus="on" required>
-                      </div>
-            </div>
-            <!-- firstName -->
-            
-            
-            <!-- Phone No. -->
-            <div class="box">
-                <label for="PhoneNo" class="fl fontLabel" style="color:white;"> Phone No. :</label>
-                      <div class="fr">
-                              <input style="float: left; text-align:center; margin-top: 7px;" type="text" name="PhoneNo" id="PhoneNo" placeholder="Phone No."class="textBox" autofocus="on" required>
-                      </div>
-            </div>
-            <!-- Phone No.-->
-            <div class="checkbox-container">
-                <label class="check-label">choose a date : </label><br>
-                
-                <input type="radio" name="time" value="13/10" required>
-                <label for="time" class="check-label">13/10</label>
-
-
-                <input type="radio" name="time" value="14/10" req>
-                <label for="time" class="check-label">14/10</label>
-            </div>
-
-            <div class="checkbox-container">
-                <label class="check-label">choose the time you want : </label><br>
-                
-                <input type="radio" name="time" value="10:00" required>
-                <label for="time" class="check-label">10:00</label>
-
-
-                <input type="radio" name="time" value="11:00" req>
-                <label for="time" class="check-label">11:00</label>
-            </div>
-
-            <div class="confirm">
-                <input type="Submit" name="confirm" class="submit" value="confirm">
-            </div>
-                
-        </div>
-    </form>
-    </div>
-</div>
-<!-- pop up end -->
-
-
-<!-- footer_start  -->
-<footer class="footer">
-    <div class="footer_top">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-xl-3 col-md-6 col-lg-3 ">
-                    <div class="footer_widget">
-                        <div class="footer_logo">
-                            <a href="#">
-                                <img src="img/post/pet-care (1).png" alt="">
-                            </a>
-                        </div>
-
-                        <div class="socail_links">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xl-footer  col-md-6 col-lg-footer">
-                    <div class="footer_widget">
-                        <ul style="padding-top:85px; padding-left:10px;">
-                            <li class="li-footer" style="margin:25px;"><a href="adopt.html">Adopt pet</a></li>
-                            <li class="li-footer" style="margin:25px;"><a href="Health-Spa(user).html">health check </a></li>
-                            <li class="li-footer" style="margin:25px;"><a href="Health-Spa(user).html">pet spa</a></li>
-                            <li class="li-footer" style="margin:25px ;"><a href="Pet_Ride.html">pet Ride</a></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>
-</footer>
-<!-- footer_end  -->
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            disableDaysOfWeek: [0, 0],
-        //     icons: {
-        //      rightIcon: '<span class="fa fa-caret-down"></span>'
-        //  }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
-
-        });
-        var timepicker = $('#timepicker').timepicker({
-         format: 'HH.MM'
-     });
+     
+     const month=["January","February","March","April","May",
+                "June", "July","August","September","October","November","December"];
+        const d=new Date();
+        let month_name=month[d.getMonth()];
+        document.getElementById("demo").innerHTML=month_name;
     </script>
 </body>
 </html>
