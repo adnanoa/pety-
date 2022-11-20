@@ -222,7 +222,101 @@
 
 
 <!-- ================ pets for adoption end ================= -->
-    
+
+<!-- add pet for adoption -->
+  <div>
+    <label for="add">Have pets for Adoption add them here:</label>
+    <a href="#pop-up">add</a>
+  </div>
+
+
+
+  <!-- popup  -->
+
+  <div class="pop-up" id="pop-up" style="height:420px ; background-color: rgba(143, 142, 142, 0.8);">
+    <div class="wrapper" id="services">
+        <a href="" class="close"> &langd; </a>
+
+        <div>
+            <h3 style="color:white ;">add pet for adoption:</h3>
+        </div>
+        <div class="container">
+            <form method="post">
+                
+            <!-- Email -->
+                <div class="box">
+                    <label for="Email" class="fl fontLabel" style="color:white ;"> Email :</label>
+                    <div class="fr">
+                            <input type="email" required name="Email"placeholder="Email" class="textBox" style="margin-top: 5px; float: left;">
+                    </div>
+                </div>
+            <!-- end of Email -->
+
+            <!---Pet Name---->
+                <div class="box">
+                    <label for="petName" class="fl fontLabel" style="color:white ;"> Pet Name : </label>
+                    <div class="fr">
+                            <input type="text" name="petName" placeholder="Pet Name *(if you have one)" class="textBox" style="margin-top: 5px; float: left;">
+                    </div>
+                </div>
+    	    <!--end of Pet Name----->
+
+            
+		<!---Pet Type------>
+    		<div class="box">
+                <label for="Type" class="fl fontLabel" style="color: white;"> Pet Type : </label>
+    			<div class="fr">
+    					<input type="text" name="Type" maxlength="10" placeholder="Pet Type *(if you have one)" class="textBox" style="margin-top: 5px; float: left;">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    	<!---Pet Type---->
+
+        
+        <!---Pet Age---->
+    		<div class="box">
+                <label for="petAge" class="fl fontLabel" style="color:white ;"> Pet Age : </label>
+    			<div class="fr">
+    					<input type="number" name="petAge" placeholder="Pet Age *(if you have one)" class="textBox" style="margin-top: 5px; float: left;">
+    			</div>
+    		</div>
+    	<!--end of Pet Age----->
+
+        <!---Pet Gender----->
+    		<div class="box">
+                <label for="gender" class="fl fonLabel" style="color:white; float: center;">Pet Gender: </label>
+               <input type="radio" name="Gender" id="Male" value="Male" style="margin: 10px;"> 
+               <label for="Male" style="color:white;">Male</label>
+               <input type="radio" name="Gender" id="Female" value="Female"> 
+               <label for="Female" style="color:white;">Female</label>
+       </div>
+   <!---end of Pet Gender--->
+
+   <!-- add photo -->
+   <div class="box">
+    <label for="myFile" style="color:white ; float: left;">Upload a photo :</label>
+    <input type="file" id="myFile" name="uplode a photo">
+    </div>
+   <!-- add photo end -->
+
+
+                
+
+                <div class="confirm">
+                    <input type="Submit" name="confirm" class="submit" value="confirm">
+                </div>
+            </form>
+
+        </div>
+    </div>
+            
+    </div>
+
+<!-- popup end  -->
+
+
+<!-- add pet for adoption end  -->
+
 <!-- footer_start  -->
 <footer class="footer">
     <div class="footer_top">
