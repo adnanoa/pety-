@@ -8,66 +8,39 @@
   </head>
   
   <body>
-    <!-- left container -->
-    <div class="left-container">                 
-                 <div class="puppy">
-                     <img src="img/banner/dog.png" alt="">
-                 </div>
-    </div>
-    <!-- left container -->
-    
 
-    <!-- Body of Form starts -->
-  	<div class="container">
-      <form method="post" autocomplete="on">
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+          <div class="container">
+              <div class="signin-content">
+                  <div class="signin-image">
+                      <figure><img src="img/post/logo.png" alt="Logo Image"></figure>
+                  </div>
 
+                  <div class="signin-form">
+                      <h2 class="form-title">Login</h2>
+                      <form method="POST" class="register-form" id="login-form">
+                          <div class="form-group">
+                              <input type="text" name="your_name" id="your_name" placeholder="Name" required/>
+                          </div>
+                          <div class="form-group">
+                              <input type="password" name="your_pass" id="your_pass" placeholder="Password" required/>
+                          </div>
+                        
+                          <div class="form-button">
+                              <input type="submit" name="Login" id="Login" class="form-submit" value="Log in"/>
+                          </div>
 
-        <!--Email-->
-    		<div class="box">
-          <label for="Email" class="fl fontLabel"> Email : </label>
-    			<div class="new iconBox">
-                <i class="fa fa-user" aria-hidden="true"></i>
+                          <div style="float: right;">
+                            <p>don't have an account</p>
+                            <a href="register.html">Register</a>
+                          </div>
+                      </form>
+                  </div>
+              </div>
           </div>
-    			<div class="fr">
-    					<input type="email" name="Email" placeholder="Enter Your Email"class="textBox" autofocus="on" required>
-    			</div>
-    			<div class="clr"></div>
-    		</div>
-    		<!--Email-->
+      </section>
 
-
-            <!---Password------>
-    		<div class="box">
-                <label for="password" class="fl fontLabel"> Password : </label>
-                      <div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
-                      <div class="fr">
-                              <input type="Password" required name="password" placeholder="Password" class="textBox">
-                      </div>
-                      <div class="clr"></div>
-                  </div>
-                  <!---Password---->
-                  
-                  <!-- register button -->
-                  <div class="footer">
-                    <p class="register">don't have an account <a href="regestire.html">Register</a></p>
-                    
-                  </div>
-                  <!-- register button -->
-
-
-    		<!---Login Button------>
-    		<div class="box">
-    				<input type="submit" name="Login" class="Login" value="Login">
-    		</div>
-    		<!---Login Button----->
-      </form>
-
-      
-
-  </div>
-
-  
-  <!--Body of Form ends--->
   </body>
 
 </html>
