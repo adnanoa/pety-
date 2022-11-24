@@ -917,7 +917,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  background: #fff;
+  background: rgb(250 250 250);
 }
 
 @media (max-width: 767px) {
@@ -1330,7 +1330,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner\ \(1\).png);
+  background-image: url(../img/banner/banner\ \(1\)\ \(1\).png);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
@@ -1341,7 +1341,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 365px;
+  height: 450px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -1349,35 +1349,35 @@ h3 {
 @media (max-width: 767px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 365px;
+    height: 450px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 365px;
+    height: 450px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 365px;
+    height: 450px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 365px;
+    height: 450px;
   }
 }
 
 @media (min-width: 1501px) and (max-width: 1700px) {
   /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider {
-    height: 365px;
+    height: 450px;
   }
 }
 
@@ -1391,10 +1391,10 @@ h3 {
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-size: 75px;
+  font-size: 60px;
   font-weight: 200;
   margin-bottom: 4px;
-  line-height: 85px;
+  line-height: 80px;
 }
 
 /* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
@@ -1421,8 +1421,8 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 
@@ -1457,8 +1457,8 @@ h3 {
 .slider_area .dog_thumb {
   position: absolute;
   float: left;
-  width: 600px;
-  height: 300px;
+  width: 700px;
+  height: 330px;
   /* right: 15%; */
 }
 
@@ -1488,13 +1488,13 @@ h3 {
 
 /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 .slider_area .dog_thumb img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 @media (max-width: 767px) {
   /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb img {
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 
@@ -1871,13 +1871,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_icon_bg_1 {
-  background-image: url(../img/service/service_icon_bg_1.png);
+  background: -webkit-linear-gradient(45deg, rgb(110, 0, 175) -15%, rgb(180, 170, 170) 140%);
+  border-radius: 30% 10%;
 }
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 241px;
-  padding-bottom: 106px;
+  padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -2133,7 +2134,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 125px 0  115px 0;
+  padding: 50px 0  50px 0;
   overflow: hidden;
   background: #fff;
 }
@@ -2646,7 +2647,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   /* background: #6c0078; */
-  background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
+  background-image: -webkit-linear-gradient(-40deg, rgb(110, 0, 175) 36%, rgb(180, 170, 170) 140%);
   position: relative;
   z-index: 0;
   color: white;
@@ -2974,7 +2975,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/banner\ \(1\).png);
+  background-image: url(../img/banner/banner\ \(1\)\ \(1\).png);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_area.scss */
@@ -3252,8 +3253,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_pet_care.scss */
 .pet_care_area {
-  padding-top: 73px;
-  padding-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -3280,8 +3281,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_adapt.scss */
 .adapt_area {
-  padding-bottom: 90px;
-  padding-top: 125px;
+  padding-bottom: 0px;
+  padding-top: 30px;
 }
 
 @media (max-width: 767px) {
@@ -6606,7 +6607,7 @@ h6 {
   margin-top: 40px;
 }
 
-.clinics-container .clinics{
+.clinics{
   margin: 30px;
   padding: 10px;
   border: solid rgb(244, 204, 248);
@@ -6812,6 +6813,11 @@ h6 {
 .calender-container{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  position:absolute;
+  top: 45px;
+  left: 60%;
+  float: right;
+
 }
 
 .calender-container .calender {
@@ -6820,8 +6826,8 @@ h6 {
 }
 
 .calender-container .calender .month{
-  padding: 70px 25px;
-  width: 400px;
+  padding: 1px 0px;
+  width: 330px;
   background: purple;
   text-align: center;
 }
@@ -6831,9 +6837,9 @@ h6 {
 
 .calender-container .calender .weekdays{
   margin: 0;
-  padding: 10px 0;
+  padding: 0px 0;
   background-color: rgb(91, 90, 89);
-  width: 400px;
+  width: 330px;
 }
 
 .calender-container .calender .weekdays li {
@@ -6841,14 +6847,13 @@ h6 {
   width: 12%;
   color: white;
   text-align: center;
-  margin-left: 4px;
 }
 
 .calender-container .calender .days{
-  padding: 10px 0;
+  padding: 0 0;
   background-color: rgb(97, 94, 94);
   margin: 0;
-  width: 400px;
+  width: 330px;
 }
 
 .calender-container .calender .days li{
@@ -6858,7 +6863,6 @@ h6 {
   text-align: center;
   font-size: 12px;
   color: white;
-  margin-left: 4px;
 }
 
 .calender-container .calender .time li{
@@ -6878,7 +6882,7 @@ h6 {
 
 .calender-container .calender .calender-label{
   background-color:purple;
-  width: 400px;
+  width: 330px;
   text-align: left;
   color: white;
 }
@@ -6896,4 +6900,155 @@ h6 {
   font-size: 12px;
   color: white;
   margin-left: 4px;
+}
+
+
+
+/* flip-card */
+
+.flip-car-container {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  background: ivory;
+  overflow: hidden;
+}
+
+.flip-card-3D-wrapper {
+  width: 90%;
+  height: 80%;
+  max-width: 90%;
+  max-height: 80%;
+  position:inherit;
+  perspective: 900px;
+  margin: 0 auto;
+}
+
+#flip-card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 50px auto;
+  position: inherit;
+  transition: ease-in-out 5s ease-out;
+  transform-style: preserve-3d;
+}
+
+.do-flip {
+  transform: rotateY(-180deg);
+}
+
+#flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front {
+  position: absolute;
+  border-radius: 50%;
+  top:95%;
+  left: 5%;
+  width: 40px;
+  height: 40px;
+  background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
+  text-align: center;
+  cursor: pointer;
+  visibility: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size:20px;
+  padding: 0;
+  color: white;
+  border: none;
+}
+
+#flip-card-btn-turn-to-back:hover, #flip-card-btn-turn-to-front:hover {
+  background: -webkit-linear-gradient(0deg, #4d0058 0%, #56014c 99%);
+
+
+}
+
+
+#flip-card .flip-card-front, #flip-card .flip-card-back{
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  backface-visibility: hidden;
+  z-index: 2;
+  box-shadow: 5px 6px 32px 2px rgba(133,133,133,0.71);
+  background: rgb(250, 250, 250);
+}
+
+#flip-card .flip-card-front {
+  border:1px solid rgb(244, 204, 248) ;
+  border-radius: 50px;
+}
+
+#flip-card .flip-card-back {
+  border: 1px solid rgb(244, 204, 248);
+  border-radius: 50px;
+  transform: rotateY(180deg);
+}
+
+#flip-card .flip-card-front p, #flip-card .flip-card-back p {
+  color: grey;
+  display: block;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+/* addPet-form */
+.flip-card-back .addPet-form{
+     margin-left: 70px;
+    margin-right: 45px;
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.addPet-form .form-group{
+  width: 50%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+}
+
+.addPet-form .form-group input{
+  box-sizing: border-box;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  cursor: text;
+  margin: 0em;
+  padding: 1px 2px;
+}
+
+.form-button {
+    float: right;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 17px 55px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    border-radius: 30px;
+    border: none;
+    background-position: 100% 0;
+    background-image: -webkit-linear-gradient(0deg, #4d0058 0%, #770069 99%);
+}
+
+.form-button:hover {
+  background: -webkit-linear-gradient(0deg, #4d0058 0%, #56014c 99%);
+
 }
