@@ -26,74 +26,73 @@
     <link rel="stylesheet" href="css/style.css">
 <!-- CSS end -->
 </head>
-
 <body>
- 
-<!-- header start  -->
-    <header>
-        <div class="header-area ">
-           
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3 col-lg-3">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="img/post/pet-care (1).png" alt=""width="96xpx" height="50px" style="margin: right 1265px;" >
-                                    <p  style="margin-left: 15px; color: purple; font-style:inherit; font-size: 30px; font-weight: bold;">Pety</p>
-                                </a>
-                                
-                            </div>
+    
+<header>
+    <div class="header-area ">
+       
+        <div id="sticky-header" class="main-header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/post/logo.png" width="175xpx" height="95px">
+                            </a>
                             
                         </div>
-                      
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a  href="index.html">home</a></li>
-                                        <li><a href="adopt.html">Adopt</a></li>
-                                        <li><a href="Health-Spa(user).html">Health and Spa</a></li>
-                                        <li><a href="Pet_Ride.html">Let's Walk</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
+                        
+                    </div>
+                  
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="main-menu  d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a  href="index.html">home</a></li>
+                                    <li><a href="adopt.html">Adopt</a></li>
+                                    <li><a href="Health-Spa(user).html">Health and Spa</a></li>
+                                    <li><a href="Pet_Ride.html">Let's Walk</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-<!-- header end -->
-
-
-<!-- bradcam area start -->
-    <div class="slider_area">
-        <div class="single_slider slider_bg_1 d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="slider_text">
-                            <p>We need your help</p>
-                            <h3 style="float: right;">Adopt Us</h3> 
-                        </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                 </div>
-            </div>
-            <div class="dog_thumb d-none d-lg-block">
-                <img src="img/banner/dog.png" alt="">
             </div>
         </div>
     </div>
-<!-- bradcam area end -->
+</header>
 
 
-<!-- ================ pets for adoption start ================= -->
-            <div class="pets-adopt-container">
+
+<div class="slider_area">
+    <div class="single_slider slider_bg_1 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="slider_text">
+                        <p>We need your help</p>
+                        <h3 style="float: right;">Adopt Us</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dog_thumb d-none d-lg-block">
+            <img src="img/banner/dog.png" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- flip-card -->
+
+<!-- front-card -->
+<div class="flip-card-container">
+    <div class="flip-card-3D-wrapper">
+        <div id="flip-card">
+            <div class="flip-card-front">
                 <a href="login.html">
                     <div class="pets-adopt">
                         <img class="img" id="pet" src="img/post/cat1.jfif" alt=""><br>
@@ -219,106 +218,53 @@
                          </label>
                     </div>
                 </a>
+                
+                <button id="flip-card-btn-turn-to-back">&plus;</button>
             </div>
+<!-- front-card -->
 
-
-<!-- ================ pets for adoption end ================= -->
-
-<!-- add pet for adoption -->
-  <div>
-    <label for="add">Have pets for Adoption add them here:</label>
-    <a href="#pop-up">add</a>
-  </div>
-
-
-
-  <!-- popup  -->
-
-  <div class="pop-up" id="pop-up" style="height:420px ; background-color: rgba(143, 142, 142, 0.8);">
-    <div class="wrapper" id="services">
-        <a href="" class="close"> &langd; </a>
-
-        <div>
-            <h3 style="color:white ;">add pet for adoption:</h3>
-        </div>
-        <div class="container">
-            <form method="post">
-                
-            <!-- Email -->
-                <div class="box">
-                    <label for="Email" class="fl fontLabel" style="color:white ;"> Email :</label>
-                    <div class="fr">
-                            <input type="email" required name="Email"placeholder="Email" class="textBox" style="margin-top: 5px; float: left;">
-                    </div>
+<!-- back-card -->
+            <div class="flip-card-back">
+                <div class="addPet-form">
+                    <h2 class="form-title">Add pets for adoption</h2>
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-group">
+                            <input type="text" name="pet-name" id="name" placeholder="Pet Name" style="border:none ; width: 100%;" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" name="Age" id="Age" placeholder="Pet Age" style="border:none ; width: 100%;" required/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="Pet-Type" id="Pet-Type" placeholder="Pet Type"style="border:none ; width: 100%;" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="Pet-Image">Uplode Image</label>
+                            <input type="file" name="Pet-Image" id="ImagePath" required>
+                        </div>
+                        <div class="form-button">
+                            <input type="submit" name="signup" id="signup" class="form-submit" value="Confirm" style="background:none ; border:none;color:white;"/>
+                        </div>
+                    </form>
                 </div>
-            <!-- end of Email -->
 
-            <!---Pet Name---->
-                <div class="box">
-                    <label for="petName" class="fl fontLabel" style="color:white ;"> Pet Name : </label>
-                    <div class="fr">
-                            <input type="text" name="petName" required placeholder="Pet Name" class="textBox" style="margin-top: 5px; float: left;">
-                    </div>
+                <div>
+                    <img src="img/post/logo.png" alt="logo" 
+                    style="width: 200px;
+                    float: right;
+                    position: absolute;
+                    top: 25%;
+                    left: 67%;">
                 </div>
-    	    <!--end of Pet Name----->
 
-            
-		<!---Pet Type------>
-    		<div class="box">
-                <label for="Type" class="fl fontLabel" style="color: white;"> Pet Type : </label>
-    			<div class="fr">
-    					<input type="text" name="Type" required maxlength="10" placeholder="Pet Type" class="textBox" style="margin-top: 5px; float: left;">
-    			</div>
-    			<div class="clr"></div>
-    		</div>
-    	<!---Pet Type---->
-
-        
-        <!---Pet Age---->
-    		<div class="box">
-                <label for="petAge" class="fl fontLabel" style="color:white ;"> Pet Age : </label>
-    			<div class="fr">
-    					<input type="number" name="petAge" required placeholder="Pet Age" class="textBox" style="margin-top: 5px; float: left;">
-    			</div>
-    		</div>
-    	<!--end of Pet Age----->
-
-        <!---Pet Gender----->
-    		<div class="box">
-                <label for="gender" class="fl fonLabel" style="color:white; float: center;">Pet Gender: </label>
-               <input type="radio" name="Gender" required id="Male" value="Male" style="margin: 10px;"> 
-               <label for="Male" style="color:white;">Male</label>
-               <input type="radio" name="Gender" required id="Female" value="Female"> 
-               <label for="Female" style="color:white;" >Female</label>
-       </div>
-   <!---end of Pet Gender--->
-
-   <!-- add photo -->
-   <div class="box">
-    <label for="myFile" style="color:white ; float: left;">Upload a photo :</label>
-    <input type="file" id="myFile" name="uplode a photo">
-    </div>
-   <!-- add photo end -->
-
-
-                
-
-                <div class="confirm">
-                    <input type="Submit" name="confirm" class="submit" value="confirm">
-                </div>
-            </form>
-
+                <button id="flip-card-btn-turn-to-front">&blacktriangleleft;</button>
+            </div>
         </div>
     </div>
-            
-    </div>
+</div>
 
-<!-- popup end  -->
+<!-- back-card -->
 
-
-<!-- add pet for adoption end  -->
-
-<!-- footer_start  -->
+<!-- footer -->
 <footer class="footer">
     <div class="footer_top">
         <div class="container">
@@ -374,55 +320,75 @@
         </div>
     </div>
 </footer>
-<!-- footer_end  -->
+<!-- footer -->
+
+
+
     
 <!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
-        <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/gijgo.min.js"></script>
-    
-<!--contact js-->
-        <script src="js/contact.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/mail-script.js"></script>
-    
-        <script src="js/main.js"></script>
-        <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            disableDaysOfWeek: [0, 0],
-        //     icons: {
-        //      rightIcon: '<span class="fa fa-caret-down"></span>'
-        //  }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-             rightIcon: '<span class="fa fa-caret-down"></span>'
-         }
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/gijgo.min.js"></script>
 
-        });
-        var timepicker = $('#timepicker').timepicker({
-         format: 'HH.MM'
-     });
-        </script>
-    </body>
-    
-    </html>
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+
+<script src="js/main.js"></script>
+<script>
+$('#datepicker').datepicker({
+    iconsLibrary: 'fontawesome',
+    disableDaysOfWeek: [0, 0],
+//     icons: {
+//      rightIcon: '<span class="fa fa-caret-down"></span>'
+//  }
+});
+$('#datepicker2').datepicker({
+    iconsLibrary: 'fontawesome',
+    icons: {
+     rightIcon: '<span class="fa fa-caret-down"></span>'
+ }
+
+});
+var timepicker = $('#timepicker').timepicker({
+ format: 'HH.MM'
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event) {
+
+document.getElementById('flip-card-btn-turn-to-back').style.visibility = 'visible';
+document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
+
+document.getElementById('flip-card-btn-turn-to-back').onclick = function() {
+document.getElementById('flip-card').classList.toggle('do-flip');
+};
+
+document.getElementById('flip-card-btn-turn-to-front').onclick = function() {
+document.getElementById('flip-card').classList.toggle('do-flip');
+};
+
+});
+</script>
+</body>
+
+
+</html> 
