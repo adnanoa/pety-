@@ -6820,13 +6820,12 @@ h6 {
 
 /* flip-card */
 
-.flip-car-container {
+.flip-card-container {
   height: 100%;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
   font-weight: 300;
-  background: ivory;
+  background: white;
   overflow: hidden;
 }
 
